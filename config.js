@@ -27,20 +27,20 @@ mongoose.set('strictQuery', true);
 
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "94774516277";   // You can Change this number //
+  gg = "249127591317";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
 
 
-global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "mongodb+srv://ThatOneGirlWithBigBootyAndBoobs2023:SendMeUrBoobsPic4535@cluster2023.bblquhi.mongodb.net/?retryWrites=true&w=majority"; // paste your own MongoDB url..
+global.owner = gg.split("akane710");
+global.mongodb = process.env.MONGODB || "mongodb+srv://braamoh13:<senriakane>@akane710.znzq2hd.mongodb.net/?retryWrites=true&w=majority"; // paste your own MongoDB url..
 global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
-  process.env.TENOR_API_KEY || "AIzaSyCAYZ930Rq1EFiRNRJuSeGGrKljCnOb8-U"; // paste Your own Api Key..
-global.packname = process.env.PACKNAME || `👹 𝕐𝕒𝕜𝕒ᵐᵈ`;
-global.author = process.env.AUTHOR || "by: 𝖄𝖆𝖐𝖆𝖘𝖍𝖎";
+  process.env.TENOR_API_KEY || "AIzaSyALyIAgSAqQ2xtW6xpkVaFq0pSuO_Oxoiw"; // paste Your own Api Key..
+global.packname = process.env.PACKNAME || `plana`;
+global.author = process.env.AUTHOR || "by: akane710";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
